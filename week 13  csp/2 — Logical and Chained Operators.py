@@ -19,13 +19,27 @@ print(not(x == 10))       # False
 print(1 < x < 20)         # True
 
 
-# Practice Problems:
+# Practice Problems: 
+#score calculator 
+score = int(input(" enter your score (0-100):"))
+if 90 <= score <=100:
+    print("Grade: A")
+elif 80 <= score <= 90:
+    print("Grade: B")
+elif 70 <= score <= 80:
+    print("Grade: C")
+elif 60 <= score <= 70:
+    print("Grade: D")
+else:
+    print("Grade: F")
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
-
+x = int(input("enter a number: "))
+print(50 <= x <= 100)
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
-
+y = int(input("enter another number: "))
+print(y != 0 and y >10)
 # Use chained comparison to check if 3 < 4 < 5.
-
+print(3 < 4 < 3)
 # Challenge: Create a password rule using logical operators:
 
